@@ -16,16 +16,21 @@ label {
 .col-25 {
   float: left;
   width: 39%;
-  margin-top: 6px;
+   margin-top: 6px; 
 }
 
 .col-75 {
   float: left;
   width: 61%;
-  margin-top: 6px;
+  margin-top: 6px; 
 }
 
 .col-res {
   float: left;
   margin-top: 10px;
 }	
+
+#years{
+	margin-top: 5px;
+}
+
