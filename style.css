@@ -1,6 +1,6 @@
 body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana; text-align:center}
-.maindiv{background-color:white;color:black;width:400px;padding:20px;border-radius:25px;position:fixed;left:50%;top:2%;transform: translate(-50%,-2%)}
+h2{color:grey;font-family:verdana; text-align:center}
+.maindiv{background-color:white;color:black;width:380px;padding:20px;border-radius:25px; display: block; margin: auto;}
 
 .row:after {
   content: "";
@@ -15,13 +15,13 @@ label {
 
 .col-25 {
   float: left;
-  width: 39%;
+  width: 33%;
    margin-top: 6px; 
 }
 
 .col-75 {
   float: left;
-  width: 61%;
+  width: 67%;
   margin-top: 6px; 
 }
 
