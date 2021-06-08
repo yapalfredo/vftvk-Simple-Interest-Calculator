@@ -12,10 +12,10 @@ function compute()
 		document.getElementById("principal").focus();
 	}
 	else {
-		result.innerHTML = "<p>If you deposit <b><mark>"+principal+"<\/mark><\/b>,<\/p>";
-		result.innerHTML += "<p>at an interest rate of <b><mark>"+rate+"%<\/mark><\/b>.<\/p>";
-		result.innerHTML += "<p>You will receive an amount of <b><mark>"+interest+"<\/mark><\/b>,<\/p>";
-		result.innerHTML += "<p>in the year <b><mark>"+year;+"<\/mark><\/b><\/p>";
+		result.innerHTML = "If you deposit <b><mark>"+principal+"<\/mark><\/b>,<\/br>";
+		result.innerHTML += "at an interest rate of <b><mark>"+rate+"%<\/mark><\/b>.<\/br>";
+		result.innerHTML += "You will receive an amount of <b><mark>"+interest+"<\/mark><\/b>,<\/br>";
+		result.innerHTML += "in the year <b><mark>"+year;+"<\/mark><\/b><\/br>";
 	}
 	
 }

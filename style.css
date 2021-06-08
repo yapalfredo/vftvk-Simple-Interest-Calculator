@@ -1,5 +1,31 @@
 body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv{background-color:white;color:black;width:300px;padding:20px;border-radius:25px;position:fixed;top:50%;left:50%; transform: translate(-50%,-50%)}
+h1{color:grey;font-family:verdana; text-align:center}
+.maindiv{background-color:white;color:black;width:300px;padding:20px;border-radius:25px;position:fixed;left:50%;top:2%;transform: translate(-50%,-2%)}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+label {
+  padding: 5px 5px 5px 0;
+  display: inline-block;
+}
+
+.col-25 {
+  float: left;
+  width: 33%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 67%;
+  margin-top: 6px;
+}
+
+.col-res {
+  float: left;
+  margin-top: 10px;
+}	
